@@ -808,7 +808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winLevelDelay: 2
-  winParticleVFX: {fileID: 168542, guid: 5702e2a6fea804b45b49b70d8feaf7ae, type: 3}
-  particleVFXDestroyDelay: 2
+  winParticleVFX: {fileID: 5314354058525339135, guid: d732dfdc30bf8974e91d8a1466c199d2, type: 3}
+  particleVFXDestroyDelay: 10
   particleOffset: {x: 4, y: 0, z: 20}
   winMenu: {fileID: 0}
