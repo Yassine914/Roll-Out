@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Unity\Roll Out!" t="IncludeRecursive">
+    <e p="C:\Unity\Roll Out!\Roll-Out\Roll Out!" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CamFollow.cs" t="Include" />
+          <e p="Coins.cs" t="Include" />
           <e p="LevelLoad.cs" t="Include" />
           <e p="LevelSelector.cs" t="Include" />
           <e p="PageSwiper.cs" t="Include" />
@@ -149,6 +150,6 @@
       <e p="Temp\Bin" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\yassi\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\yassi\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Roll Out!.-601348514.00" t="ExcludeRecursive" />
+    <e p="C:\Users\yassi\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Roll Out!.172073560.00" t="ExcludeRecursive" />
   </component>
 </project>

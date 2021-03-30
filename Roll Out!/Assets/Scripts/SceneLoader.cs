@@ -64,7 +64,7 @@ public class SceneLoader : MonoBehaviour
 
     IEnumerator ReloadSceneTransition(int sceneIndex)
     {
-        FindObjectOfType<Player>().dieMenu.SetActive(false);
+        FindObjectOfType<Player>().DieMenu.SetActive(false);
         transitionAnimator.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(sceneIndex);

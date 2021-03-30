@@ -18,19 +18,18 @@ public class WinLevel : MonoBehaviour
 
     private void OnTriggerEnter(Collider otherCollider)
     {
-        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        
         if (otherCollider.CompareTag("Player"))
         {
-            StartCoroutine(LevelWin(currentSceneIndex));
+            StartCoroutine(LevelWin());
         }
     }
 
-    private IEnumerator LevelWin(int currentSceneIndex)
-    {
-       InstantiateParticle();
-       yield return new WaitForSeconds(winLevelDelay);
-       winMenu.SetActive(true);
+    private IEnumerator LevelWin()
+    { 
+        FindObjectOfType<Player>().HasWon = true;
+        InstantiateParticle();
+        yield return new WaitForSeconds(winLevelDelay);
+        winMenu.SetActive(true);
     }
 
     private void InstantiateParticle()

@@ -3,25 +3,26 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [Header("Movement")]
-    [SerializeField] private float verticalMoveSpeed = 1f;
-    [SerializeField] private float horizontalMoveSpeed = 10f;
-    [SerializeField] private float fallLimit = 3f;
-    [SerializeField] private float jumpHeight = 10f;
+    [SerializeField] private float _verticalMoveSpeed = 1f;
+    [SerializeField] private float _horizontalMoveSpeed = 10f;
+    [SerializeField] private float _fallLimit = 3f;
+    [SerializeField] private float _jumpHeight = 10f;
     [Header("Other")]
-    [SerializeField] private bool isMainMenuElement = false;
-    [SerializeField] public GameObject dieMenu;
+    [SerializeField] private bool _isMainMenuElement = false;
+    [SerializeField] public GameObject DieMenu;
     
     private bool _isAlive = true;
     private bool _isGrounded;
     private Rigidbody _rigidBody;
-    
+    [HideInInspector] public bool HasWon;
 
     private void Start()
     {
+        HasWon = false;
         _rigidBody = GetComponent<Rigidbody>();
         _isGrounded = false;
-        if(!dieMenu){return;}
-        dieMenu.SetActive(false);
+        if(!DieMenu){return;}
+        DieMenu.SetActive(false);
     }
     
     private void Update()
@@ -39,33 +40,33 @@ public class Player : MonoBehaviour
     private void MoveVertical()
     {
         var verticalMove = Input.GetAxis("Vertical");
-        var vertical = new Vector3( 0, 0, verticalMove * verticalMoveSpeed * Time.deltaTime);
+        var vertical = new Vector3( 0, 0, verticalMove * _verticalMoveSpeed * Time.deltaTime);
         _rigidBody.velocity += vertical;
 
         var backMove = Input.GetAxis("Backward");
 
-        if (isMainMenuElement)
+        if (_isMainMenuElement)
         {
-            var back = new Vector3(0, 0, backMove * verticalMoveSpeed * Time.deltaTime);
+            var back = new Vector3(0, 0, backMove * _verticalMoveSpeed * Time.deltaTime);
             _rigidBody.velocity += back;
         }
     }
 
     private void Jump()
     {
-        if (isMainMenuElement) return;
+        if (_isMainMenuElement) return;
         if (!_isGrounded) return;
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            _rigidBody.velocity += Vector3.up * jumpHeight;
+            _rigidBody.velocity += Vector3.up * _jumpHeight;
         }
     }
 
     private void MoveHorizontal()
     {
         var horizontalMove = Input.GetAxis("Horizontal");
-        var horizontal = new Vector3(horizontalMove * horizontalMoveSpeed * Time.deltaTime, 0, 0);
+        var horizontal = new Vector3(horizontalMove * _horizontalMoveSpeed * Time.deltaTime, 0, 0);
         _rigidBody.velocity += horizontal;
     }
 
@@ -79,7 +80,7 @@ public class Player : MonoBehaviour
     
     private void FallLimit()
     {
-        if (transform.position.y < -fallLimit)
+        if (transform.position.y < -_fallLimit && !HasWon)
         {
             FindObjectOfType<SceneLoader>().ReloadLevel();
         }
@@ -103,6 +104,6 @@ public class Player : MonoBehaviour
         _isAlive = false;
         GetComponent<Score>().score = 0;
         Time.timeScale = 0f;
-        dieMenu.SetActive(true);
+        DieMenu.SetActive(true);
     }
 }
