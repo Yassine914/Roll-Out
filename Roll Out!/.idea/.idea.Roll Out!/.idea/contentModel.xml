@@ -6,7 +6,8 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CamFollow.cs" t="Include" />
-          <e p="Coins.cs" t="Include" />
+          <e p="Coin.cs" t="Include" />
+          <e p="CoinsText.cs" t="Include" />
           <e p="LevelLoad.cs" t="Include" />
           <e p="LevelSelector.cs" t="Include" />
           <e p="PageSwiper.cs" t="Include" />

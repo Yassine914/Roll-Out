@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         FallLimit();
-        if (_isAlive)
+        if (_isAlive && !HasWon)
         {
             MoveVertical();
             MoveHorizontal();
