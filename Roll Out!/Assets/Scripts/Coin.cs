@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-public class Coins : MonoBehaviour
+public class Coin : MonoBehaviour
 {
     private void Update()
     {
