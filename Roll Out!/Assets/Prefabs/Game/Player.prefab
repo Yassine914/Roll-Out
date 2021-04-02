@@ -265,13 +265,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4856706403cdb0749a3af22b1f198988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _verticalMoveSpeed: 25
-  _horizontalMoveSpeed: 25
-  _fallLimit: 3
-  _jumpHeight: 10
-  _isMainMenuElement: 0
-  DieMenu: {fileID: 0}
-  HasWon: 0
+  verticalMoveSpeed: 25
+  horizontalMoveSpeed: 25
+  fallLimit: 3
+  jumpHeight: 10
+  isMainMenuElement: 0
+  dieMenu: {fileID: 0}
+  hasWon: 0
 --- !u!114 &8582545863454506643
 MonoBehaviour:
   m_ObjectHideFlags: 0

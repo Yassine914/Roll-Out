@@ -3234,7 +3234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: v0.4.0
+  m_text: v0.4.2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ba26b97f72999724bb709c1caf5c39af, type: 2}
   m_sharedMaterial: {fileID: -1803951469380470624, guid: ba26b97f72999724bb709c1caf5c39af, type: 2}
@@ -4298,12 +4298,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4856706403cdb0749a3af22b1f198988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalMoveSpeed: 25
-  horizontalMoveSpeed: 25
+  verticalMoveSpeed: 1
+  horizontalMoveSpeed: 10
   fallLimit: 3
   jumpHeight: 10
-  isMainMenuElement: 1
+  isMainMenuElement: 0
   dieMenu: {fileID: 0}
+  hasWon: 0
 --- !u!4 &959587626594616141
 Transform:
   m_ObjectHideFlags: 0

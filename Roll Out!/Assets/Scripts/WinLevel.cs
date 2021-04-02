@@ -11,9 +11,12 @@ public class WinLevel : MonoBehaviour
     [SerializeField] private Vector3 particleOffset;
     [SerializeField] private GameObject winMenu;
 
+    private AudioSource winSFX;
+
     private void Start()
     {
         winMenu.SetActive(false);
+        winSFX = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider otherCollider)
@@ -26,10 +29,12 @@ public class WinLevel : MonoBehaviour
 
     private IEnumerator LevelWin()
     { 
-        FindObjectOfType<Player>().HasWon = true;
+        winSFX.Play();
+        FindObjectOfType<Player>().hasWon = true;
         InstantiateParticle();
         yield return new WaitForSeconds(winLevelDelay);
         winMenu.SetActive(true);
+        
     }
 
     private void InstantiateParticle()
