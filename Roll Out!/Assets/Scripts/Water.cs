@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Water : MonoBehaviour
 { 
+   [Header("Water")]
    Vector3[] _verticies;
    int[] _triangles;
    private Vector2[] _uvs;

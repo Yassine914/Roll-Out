@@ -811,7 +811,7 @@ MonoBehaviour:
   winLevelDelay: 2
   winParticleVFX: {fileID: 5314354058525339135, guid: d732dfdc30bf8974e91d8a1466c199d2, type: 3}
   particleVFXDestroyDelay: 10
-  particleOffset: {x: 4, y: 0, z: 20}
+  particleOffset: {x: 0, y: 0, z: 25}
   winMenu: {fileID: 0}
 --- !u!82 &7230027218343489968
 AudioSource:
@@ -833,7 +833,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.5417724
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

@@ -191,7 +191,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-39364
+  m_Name: pb_Mesh-1702
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1897,6 +1897,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7230027218343489968, guid: 775778c5b62b9604798c6cc801b940c5, type: 3}
+      propertyPath: MinDistance
+      value: 3.5417724
+      objectReference: {fileID: 0}
     - target: {fileID: 7696820702795232168, guid: 775778c5b62b9604798c6cc801b940c5, type: 3}
       propertyPath: m_Name
       value: Win Gate

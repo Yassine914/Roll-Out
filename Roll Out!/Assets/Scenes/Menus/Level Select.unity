@@ -1942,7 +1942,7 @@ MonoBehaviour:
   levelHolder: {fileID: 1793314906}
   levelIcon: {fileID: 344468867720692182, guid: 06fdaf639ae59bc4b959d3f50af7ff58, type: 3}
   thisCanvas: {fileID: 1079342454}
-  numberOfLevels: 3
+  numberOfLevels: 12
   iconSpacing: {x: 35, y: 35}
 --- !u!1 &1793314906
 GameObject:
@@ -2438,6 +2438,7 @@ MonoBehaviour:
   jumpHeight: 10
   isMainMenuElement: 1
   dieMenu: {fileID: 0}
+  hasWon: 0
 --- !u!23 &959587626934652380
 MeshRenderer:
   m_ObjectHideFlags: 0
