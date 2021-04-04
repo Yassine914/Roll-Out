@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
 
     private void Update()
     {
-        score = (int) Time.timeSinceLevelLoad + scoreMultiplier;
+        score = (int) (Time.timeSinceLevelLoad + scoreMultiplier);
         if (scoreText is { }) scoreText.text = score.ToString();
         multiplierText.text = "+50";
     }

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b16a8260-ba2e-40e2-a952-ecee1e429e2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Roll Out!/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roll Out!/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Transitions/Roll Out! Left Side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Transitions/Roll Out! Left Side.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Transitions/Roll Out! Right Side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Transitions/Roll Out! Right Side.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 14.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 14.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 15.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 15.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 16.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 16.prefab" afterDir="false" />
@@ -13,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 21.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 21.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment/Win Gate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment/Win Gate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Game/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Scene Loader.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Game/Scene Loader.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Hammer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/Hammer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Endless/Endless Mode.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Endless/Endless Mode.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 8.unity" afterDir="false" />
@@ -20,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menus/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/Main Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndlessManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EndlessManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
@@ -63,7 +69,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CamFollow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DontDestroy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameCanvas.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Coins.cs" />
@@ -73,6 +78,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Water.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EndlessManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qHouxIvqmecZuOGwfbiPvtS05M" />
@@ -146,7 +152,7 @@
       <workItem from="1617318178023" duration="3913000" />
       <workItem from="1617370348145" duration="2646000" />
       <workItem from="1617460177873" duration="340000" />
-      <workItem from="1617524806409" duration="5093000" />
+      <workItem from="1617524806409" duration="6131000" />
     </task>
     <servers />
   </component>
