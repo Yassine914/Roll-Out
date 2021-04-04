@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3730
+  m_Name: pb_Mesh-19630
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -344,7 +344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 4.23
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
       propertyPath: m_ConnectedAnchor.y
@@ -352,7 +352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 30.37
+      value: 159.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
@@ -421,7 +421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 156.7
+      value: 187.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
@@ -583,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 70.96
+      value: 75.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
@@ -667,7 +667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 56.38
+      value: 55.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
@@ -924,7 +924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 4.23
+      value: -6.97
       objectReference: {fileID: 0}
     - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
       propertyPath: m_ConnectedAnchor.y
@@ -1063,18 +1063,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.1489161
-      objectReference: {fileID: 0}
-    - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 8.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
-      propertyPath: m_ConnectedAnchor.z
-      value: 37.687687
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
 --- !u!1001 &1363479625
@@ -1142,7 +1130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9172055824169857636, guid: cac214559ee28764a89a64d85ce654fc, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 156.7
+      value: 173
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cac214559ee28764a89a64d85ce654fc, type: 3}

@@ -3234,7 +3234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: v0.5.1
+  m_text: v0.6.3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ba26b97f72999724bb709c1caf5c39af, type: 2}
   m_sharedMaterial: {fileID: -1803951469380470624, guid: ba26b97f72999724bb709c1caf5c39af, type: 2}
@@ -4304,6 +4304,9 @@ MonoBehaviour:
   jumpHeight: 10
   isMainMenuElement: 0
   dieMenu: {fileID: 0}
+  hitAudios: []
+  spike: {fileID: 0}
+  spikeOffset: {x: 0, y: 0, z: 0}
   hasWon: 0
 --- !u!4 &959587626594616141
 Transform:

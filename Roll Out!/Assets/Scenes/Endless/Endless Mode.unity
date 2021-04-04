@@ -190,6 +190,15 @@ MonoBehaviour:
   - {fileID: 6298979272563251176, guid: 513847710d52cb3438a34a8336631e26, type: 3}
   - {fileID: 3595312376604515317, guid: 14449fed4b34740439db4a11a281911e, type: 3}
   - {fileID: 6653068942575851945, guid: 58002129f85fbd940a619fe0401ff72e, type: 3}
+  - {fileID: 7921368241047236450, guid: d87eae755c946ea42ad3c6e67d29a0a9, type: 3}
+  - {fileID: 1880797944153723502, guid: 0d069a1d55ca5764c87fe617ddac818b, type: 3}
+  - {fileID: 8620105614148800315, guid: 1986a666e0eea8f4dbdbaf9caace9036, type: 3}
+  - {fileID: 5157979196911848475, guid: 4d965798fefbf44468525d888f402de1, type: 3}
+  - {fileID: 8220434115964567962, guid: 6a1d0cd2fa41f084b90ab33ca9d98a99, type: 3}
+  - {fileID: 1878289589807718430, guid: c364def525dd0d745a1ac34dc2c55444, type: 3}
+  - {fileID: 9187553891009538372, guid: 76a15e86fea9dae42b4569751a874142, type: 3}
+  - {fileID: 6555451892642812272, guid: 45ba9bed4d8bc3341b7fa957f80455d7, type: 3}
+  - {fileID: 1974948033049192722, guid: df0d5f8b18e23ae41acfe3e68cf27a06, type: 3}
   zSpawn: 0
   tileLength: 50
   numberOfTiles: 5
@@ -731,10 +740,6 @@ PrefabInstance:
     - target: {fileID: 959587627018490896, guid: e2e7fd0722e52d34d8d0bd5bfd4439bb, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 959587627018490896, guid: e2e7fd0722e52d34d8d0bd5bfd4439bb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 959587627018490908, guid: e2e7fd0722e52d34d8d0bd5bfd4439bb, type: 3}
       propertyPath: m_RootOrder

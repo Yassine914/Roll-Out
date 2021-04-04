@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 47e93f2e2b815db408dccd6c906bc5e2, type: 2}
+  - {fileID: 2100000, guid: cf6228316cf35294caec71a5264c59c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,7 +113,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.16, y: 8.25, z: 16}
+  m_ConnectedAnchor: {x: 0, y: 8.25, z: 2.5999985}
   m_UseSpring: 0
   m_Spring:
     spring: 11.19
@@ -226,7 +226,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 47e93f2e2b815db408dccd6c906bc5e2, type: 2}
+  - {fileID: 2100000, guid: cf6228316cf35294caec71a5264c59c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -276,7 +276,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.16, y: 8.25, z: 2.5999985}
+  m_ConnectedAnchor: {x: 0, y: 8.25, z: 22.6}
   m_UseSpring: 0
   m_Spring:
     spring: 11.19
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 3419330691166715686}
   - component: {fileID: 3419330691166715689}
   m_Layer: 3
-  m_Name: Tile 18 1
+  m_Name: Tile 18
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,7 +487,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 47e93f2e2b815db408dccd6c906bc5e2, type: 2}
+  - {fileID: 2100000, guid: cf6228316cf35294caec71a5264c59c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -537,7 +537,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.16, y: 8.25, z: 19.9}
+  m_ConnectedAnchor: {x: 0, y: 8.25, z: 40.800003}
   m_UseSpring: 0
   m_Spring:
     spring: 11.19

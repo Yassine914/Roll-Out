@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Player : MonoBehaviour
 {
@@ -10,6 +12,11 @@ public class Player : MonoBehaviour
     [Header("Other")]
     [SerializeField] private bool isMainMenuElement;
     [SerializeField] public GameObject dieMenu;
+    [SerializeField] public AudioClip[] hitAudios;
+    [SerializeField] private GameObject spike;
+    [SerializeField] private Vector3 spikeOffset;
+    private AudioSource audioSource;
+    private int numOfHitAudios;
     
     private bool _isAlive = true;
     private bool _isGrounded;
@@ -23,6 +30,10 @@ public class Player : MonoBehaviour
         _isGrounded = false;
         if(!dieMenu){return;}
         dieMenu.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
+        numOfHitAudios = Random.Range(0, hitAudios.Length);
+
+        
     }
     
     private void Update()
@@ -70,10 +81,23 @@ public class Player : MonoBehaviour
         _rigidBody.velocity += horizontal;
     }
 
+    private void OnTriggerEnter(Collider otherCollider)
+    {
+        spikeOffset = new Vector3(Random.Range(-4, 5), 10, 20);
+        if (otherCollider.CompareTag("Spikes"))
+        {
+            GameObject spikeClone = Instantiate(spike,
+                otherCollider.transform.position + spikeOffset,
+                 spike.transform.rotation);
+        }
+    }
+
     private void OnCollisionEnter(Collision otherCollider)
     {
+        
         if(otherCollider.collider.CompareTag("Obstacles"))
         {
+            audioSource.PlayOneShot(hitAudios[numOfHitAudios], .7f);
             Die();
         }
     }

@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 6298979272563251174}
   - component: {fileID: 6298979272563251177}
   m_Layer: 3
-  m_Name: Tile 18
+  m_Name: Tile 19
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -345,7 +345,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 47e93f2e2b815db408dccd6c906bc5e2, type: 2}
+  - {fileID: 2100000, guid: cf6228316cf35294caec71a5264c59c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -395,7 +395,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -4.96, y: 8.25, z: 4.450001}
+  m_ConnectedAnchor: {x: -0.16, y: 8.25, z: 16}
   m_UseSpring: 0
   m_Spring:
     spring: 11.19

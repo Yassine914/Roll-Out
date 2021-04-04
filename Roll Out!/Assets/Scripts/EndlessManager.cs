@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class EndlessManager : MonoBehaviour
 {
@@ -23,7 +21,7 @@ public class EndlessManager : MonoBehaviour
             }
             else
             {
-                SpawnTile(UnityEngine.Random.Range(0, tilePrefabs.Length));
+                SpawnTile(Random.Range(0, tilePrefabs.Length));
             }
         }
     }
