@@ -9,7 +9,20 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] private string endlessMode = "Endless Mode";
     public Animator transitionAnimator;
     public float transitionTime = 1f;
-    
+
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.Return) && FindObjectOfType<Player>().hasWon)
+        {
+            LoadNextLevel();
+        }
+
+        if (Input.GetKey(KeyCode.R) && !FindObjectOfType<Player>().isAlive)
+        {
+            ReloadLevel();
+        }
+    }
 
     public void LevelSelectScreen()
     {

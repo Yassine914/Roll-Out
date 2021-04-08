@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: NoName Studios
   productName: Roll Out!
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: fa532da14de06bb4aae558e55ec4427c, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -131,7 +131,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.6.3
+  bundleVersion: 0.8.2
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0

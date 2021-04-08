@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     private AudioSource audioSource;
     private int numOfHitAudios;
     
-    private bool _isAlive = true;
+    public bool isAlive = true;
     private bool _isGrounded;
     private Rigidbody _rigidBody;
     [HideInInspector] public bool hasWon;
@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         FallLimit();
-        if (_isAlive && !hasWon)
+        if (isAlive && !hasWon)
         {
             MoveVertical();
             MoveHorizontal();
@@ -125,7 +125,7 @@ public class Player : MonoBehaviour
     
     private void Die()
     {
-        _isAlive = false;
+        isAlive = false;
         GetComponent<Score>().score = 0;
         Time.timeScale = 0f;
         dieMenu.SetActive(true);

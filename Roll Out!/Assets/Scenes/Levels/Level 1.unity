@@ -929,8 +929,7 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 320498043}
-    m_RemovedComponents:
-    - {fileID: 2738966216848332917, guid: 86fd5ff4dc164d24eb7b230ab2b93cb7, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86fd5ff4dc164d24eb7b230ab2b93cb7, type: 3}
 --- !u!114 &942700338 stripped
 MonoBehaviour:
@@ -1571,7 +1570,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 959587627018490909, guid: e2e7fd0722e52d34d8d0bd5bfd4439bb, type: 3}
-      propertyPath: DieMenu
+      propertyPath: dieMenu
       value: 
       objectReference: {fileID: 228183139}
     - target: {fileID: 8582545863454506643, guid: e2e7fd0722e52d34d8d0bd5bfd4439bb, type: 3}
