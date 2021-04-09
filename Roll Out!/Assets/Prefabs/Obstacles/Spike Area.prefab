@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7543974836487329932}
   - component: {fileID: 7543974836487329933}
   m_Layer: 0
-  m_Name: Spike Area (1)
+  m_Name: Spike Area
   m_TagString: Spikes
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -42,5 +42,5 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.732054, y: 5.114297, z: 1.6103041}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 9.732054, y: 5.114297, z: 0.22071755}
+  m_Center: {x: 0, y: 0, z: -0.6947933}

@@ -104,4 +104,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level 30.unity
     guid: 7398b3097c9325041b22965bff38195f
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 31.unity
+    guid: 3c5705abc29d20046a60e116b556a7c2
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 32.unity
+    guid: b9d1283650b0e3949af229c3ed645ee3
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 33.unity
+    guid: bf2ea4ca94119f647825d1a9327010a5
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 34.unity
+    guid: 3cb400f41bc44dd47a9e5c1231015397
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 35.unity
+    guid: 51eef421e3efed84c8a28b59aa55a6c8
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 36.unity
+    guid: 507ae45ea699f05448a2344c6d5cb64b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 37.unity
+    guid: ae6b0f300b1792f4a8ddda4cad4837d4
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 38.unity
+    guid: 424b00edc0069244ab5bafd5b1815f7a
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 39.unity
+    guid: b2041279c70748946815d404a3c167ba
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 40.unity
+    guid: 44c2565f6ef15c84e9a91e9c819c252c
+  - enabled: 1
+    path: Assets/Scenes/Menus/Credits.unity
+    guid: 5e64af5332cb96d4dbb0c411111cb25a
   m_configObjects: {}

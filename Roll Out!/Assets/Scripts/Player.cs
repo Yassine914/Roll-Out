@@ -125,9 +125,12 @@ public class Player : MonoBehaviour
     
     private void Die()
     {
-        isAlive = false;
-        GetComponent<Score>().score = 0;
-        Time.timeScale = 0f;
-        dieMenu.SetActive(true);
+        if (isAlive)
+        {
+            isAlive = false;
+            GetComponent<Score>().score = 0;
+            Time.timeScale = 0f;
+            dieMenu.SetActive(true);
+        }
     }
 }

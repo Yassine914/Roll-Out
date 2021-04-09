@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private string levelSelect = "Level Select";
     [SerializeField] private string endlessMode = "Endless Mode";
+    [SerializeField] private string credits = "Credits";
     public Animator transitionAnimator;
     public float transitionTime = 1f;
 
@@ -95,5 +96,18 @@ public class SceneLoader : MonoBehaviour
         transitionAnimator.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(sceneIndex + 1);
+    }
+
+    public void CreditsScreen()
+    {
+        Time.timeScale = 1f;
+        StartCoroutine(CreditsSceneTransition());
+    }
+    
+    IEnumerator CreditsSceneTransition()
+    {
+        transitionAnimator.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene(credits);
     }
 }
