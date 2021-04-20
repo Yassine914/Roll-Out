@@ -19,7 +19,17 @@ public class SceneLoader : MonoBehaviour
             LoadNextLevel();
         }
 
+        if (Input.GetButtonDown("Submit") && FindObjectOfType<Player>().hasWon)
+        {
+            LoadNextLevel();
+        }
+
         if (Input.GetKey(KeyCode.R) && !FindObjectOfType<Player>().isAlive)
+        {
+            ReloadLevel();
+        }
+
+        if (Input.GetButtonDown("Cancel") && !FindObjectOfType<Player>().isAlive)
         {
             ReloadLevel();
         }

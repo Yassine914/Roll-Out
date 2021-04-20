@@ -285,6 +285,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 211e4e51e897bb642a0a141fd00bc40c, type: 3}
   spike: {fileID: 3613195626667052196, guid: 46ba64f936934fb43a990df0b33b8b7b, type: 3}
   spikeOffset: {x: 0, y: 10, z: 20}
+  isAlive: 1
   hasWon: 0
 --- !u!114 &8582545863454506643
 MonoBehaviour:

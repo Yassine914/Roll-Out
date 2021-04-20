@@ -17,13 +17,29 @@ public class PauseMenu : MonoBehaviour
   
     private void PauseGame()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !_isPaused)
+        var player = FindObjectOfType<Player>();
+        
+        if (Input.GetKeyDown(KeyCode.Escape) && !_isPaused && !player.hasWon && player.isAlive)
         {
             pauseMenu.SetActive(true);
             Time.timeScale = 0f;
             _isPaused = true;
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && _isPaused)
+        else if (Input.GetKeyDown(KeyCode.Escape) && _isPaused && !player.hasWon && player.isAlive)
+        {
+            pauseMenu.SetActive(false);
+            Time.timeScale = 1f;
+            _isPaused = false;
+        }
+
+
+        if (Input.GetButtonDown("Pause") && !_isPaused && !player.hasWon && player.isAlive)
+        {
+            pauseMenu.SetActive(true);
+            Time.timeScale = 0f;
+            _isPaused = true;
+        }
+        else if(Input.GetButtonDown("Pause") && _isPaused && !player.hasWon && player.isAlive)
         {
             pauseMenu.SetActive(false);
             Time.timeScale = 1f;
@@ -33,7 +49,8 @@ public class PauseMenu : MonoBehaviour
 
     public void ContinueGame()
     {
-        if (_isPaused)
+        var player = FindObjectOfType<Player>();
+        if (_isPaused && !player.hasWon && player.isAlive)
         {
             pauseMenu.SetActive(false);
             Time.timeScale = 1f;

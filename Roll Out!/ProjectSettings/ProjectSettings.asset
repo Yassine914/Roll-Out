@@ -16,7 +16,7 @@ PlayerSettings:
   productName: Roll Out!
   defaultCursor: {fileID: 2800000, guid: fa532da14de06bb4aae558e55ec4427c, type: 3}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.07058824, g: 0.10980392, b: 0.10980392, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -41,9 +41,9 @@ PlayerSettings:
     height: 1
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
-    duration: 2.3
+    duration: 2.15
   - logo: {fileID: 21300000, guid: ad5fbec9102949a4bb3cfe030ee4d646, type: 3}
-    duration: 3.4
+    duration: 3.25
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -131,7 +131,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.9.4
+  bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0

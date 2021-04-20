@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -32,8 +33,6 @@ public class Player : MonoBehaviour
         dieMenu.SetActive(false);
         audioSource = GetComponent<AudioSource>();
         numOfHitAudios = Random.Range(0, hitAudios.Length);
-
-        
     }
     
     private void Update()
@@ -70,6 +69,11 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            _rigidBody.velocity += Vector3.up;
+        }
+
+        if (Input.GetButtonDown("Jump"))
+        {
             _rigidBody.velocity += Vector3.up * jumpHeight;
         }
     }
@@ -91,17 +95,21 @@ public class Player : MonoBehaviour
                  spike.transform.rotation);
         }
     }
-
+  
     private void OnCollisionEnter(Collision otherCollider)
     {
-        
         if(otherCollider.collider.CompareTag("Obstacles"))
         {
             audioSource.PlayOneShot(hitAudios[numOfHitAudios], .7f);
             Die();
         }
     }
-    
+
+    private void OnCollisionExit(Collision otherCollider)
+    {
+        _isGrounded = false;
+    }
+
     private void FallLimit()
     {
         if (transform.position.y < -fallLimit && !hasWon)
@@ -118,11 +126,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit()
-    {
-        _isGrounded = false;
-    }
-    
     private void Die()
     {
         if (isAlive)
