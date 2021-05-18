@@ -1,13 +1,20 @@
+using System;
 using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    private bool _isPaused = false;
+    public bool isPaused = false;
+    private Player player;
 
     [SerializeField] private GameObject pauseMenu;
     private void Awake()
     {
         pauseMenu.SetActive(false);
+    }
+
+    private void Start()
+    {
+        player = FindObjectOfType<Player>();
     }
 
     private void Update()
@@ -17,44 +24,53 @@ public class PauseMenu : MonoBehaviour
   
     private void PauseGame()
     {
-        var player = FindObjectOfType<Player>();
         
-        if (Input.GetKeyDown(KeyCode.Escape) && !_isPaused && !player.hasWon && player.isAlive)
+        
+        if (Input.GetKeyDown(KeyCode.Escape) && !isPaused && !player.hasWon && player.isAlive)
         {
             pauseMenu.SetActive(true);
             Time.timeScale = 0f;
-            _isPaused = true;
+            isPaused = true;
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && _isPaused && !player.hasWon && player.isAlive)
+        else if (Input.GetKeyDown(KeyCode.Escape) && isPaused && !player.hasWon && player.isAlive)
         {
             pauseMenu.SetActive(false);
             Time.timeScale = 1f;
-            _isPaused = false;
+            isPaused = false;
         }
 
 
-        if (Input.GetButtonDown("Pause") && !_isPaused && !player.hasWon && player.isAlive)
+        if (Input.GetButtonDown("Pause") && !isPaused && !player.hasWon && player.isAlive)
         {
             pauseMenu.SetActive(true);
             Time.timeScale = 0f;
-            _isPaused = true;
+            isPaused = true;
         }
-        else if(Input.GetButtonDown("Pause") && _isPaused && !player.hasWon && player.isAlive)
+        else if(Input.GetButtonDown("Pause") && isPaused && !player.hasWon && player.isAlive)
         {
             pauseMenu.SetActive(false);
             Time.timeScale = 1f;
-            _isPaused = false;
+            isPaused = false;
         }
     }
 
+    public void PauseGameFromButton()
+    {
+        if (!isPaused && !player.hasWon && player.isAlive)
+        {
+            pauseMenu.SetActive(true);
+            Time.timeScale = 0f;
+            isPaused = true;
+        }
+    }
     public void ContinueGame()
     {
         var player = FindObjectOfType<Player>();
-        if (_isPaused && !player.hasWon && player.isAlive)
+        if (isPaused && !player.hasWon && player.isAlive)
         {
             pauseMenu.SetActive(false);
             Time.timeScale = 1f;
-            _isPaused = false;
+            isPaused = false;
         }
     }
 }

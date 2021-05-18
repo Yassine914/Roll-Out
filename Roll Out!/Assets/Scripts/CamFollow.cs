@@ -1,10 +1,16 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class CamFollow : MonoBehaviour
 {
     public Transform player;
     public float smoothSpeed = 10f;
     public Vector3 offset;
+
+    private void Start()
+    {
+        Screen.SetResolution((int) Screen.width, (int) Screen.height, true);
+    }
 
     private void FixedUpdate ()
     {
