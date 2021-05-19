@@ -18,6 +18,7 @@ public class Player : MonoBehaviour, IUnityAdsListener
     [SerializeField] public AudioClip[] hitAudios;
     [SerializeField] private GameObject spike;
     [SerializeField] private Vector3 spikeOffset;
+    [SerializeField] private float playerInvincibleDelay = 3f;
     public Joystick joystick;
     private AudioSource audioSource;
     private int numOfHitAudios;
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour, IUnityAdsListener
     private Renderer playerRenderer;
     private string gameId = "4124803";
     private string placementId = "rewardedVideo";
+    private GameObject adNotReadyText;
     
 
     private void Start()
@@ -43,6 +45,7 @@ public class Player : MonoBehaviour, IUnityAdsListener
         numOfHitAudios = Random.Range(0, hitAudios.Length);
         playerRenderer = GetComponent<Renderer>();
         Physics.IgnoreLayerCollision(8, 6, false);
+        adNotReadyText = GameObject.FindGameObjectWithTag("AdNotReady");
 
         Advertisement.Initialize(gameId, false);
         Advertisement.AddListener(this);
@@ -184,6 +187,11 @@ public class Player : MonoBehaviour, IUnityAdsListener
             Debug.Log("Reward Player Now!");
             StartCoroutine(ContinueAfterAd());
         }
+
+        if(showResult == ShowResult.Failed)
+        {
+            StartCoroutine(AdNotReady());
+        }
     }
 
     private IEnumerator ContinueAfterAd()
@@ -195,10 +203,17 @@ public class Player : MonoBehaviour, IUnityAdsListener
         playerRenderer.material.color = Color.white;
         Physics.IgnoreLayerCollision(8, 6, true);
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(playerInvincibleDelay);
 
         playerRenderer.material.color = playerColor;
         Physics.IgnoreLayerCollision(8, 6, false);
+    }
+
+    private IEnumerator AdNotReady()
+    {
+        adNotReadyText.SetActive(true);
+        yield return new WaitForSeconds(2);
+        adNotReadyText.SetActive(false);
     }
     
     private void OnDestroy()

@@ -15,11 +15,11 @@ C:/Unity/Roll Out!/Roll-Out/Roll Out!
 -logFile
 Logs/AssetImportWorker97.log
 -srvPort
-56160
+57627
 Successfully changed project path to: C:/Unity/Roll Out!/Roll-Out/Roll Out!
 C:/Unity/Roll Out!/Roll-Out/Roll Out!
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 150.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 167.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems

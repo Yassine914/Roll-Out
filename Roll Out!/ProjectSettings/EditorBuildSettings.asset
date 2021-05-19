@@ -9,12 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Main Menu.unity
     guid: 5197909e3f50d9040a95b34f94f55552
   - enabled: 1
-    path: Assets/Scenes/Menus/Level Select.unity
-    guid: a1b59a4a14ffe3c4faf3dd89515a6bdf
-  - enabled: 1
-    path: Assets/Scenes/Endless/Endless Mode.unity
-    guid: 3997cd5f953bfcd4e9fae25e9c7df8b5
-  - enabled: 1
     path: Assets/Scenes/Levels/Level 1.unity
     guid: 67adac43bcf286444be612074ab04f75
   - enabled: 1
@@ -164,6 +158,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level 50.unity
     guid: 1e575fca98351c643b0b5fda636f041b
+  - enabled: 1
+    path: Assets/Scenes/Endless/Endless Mode.unity
+    guid: 3997cd5f953bfcd4e9fae25e9c7df8b5
+  - enabled: 1
+    path: Assets/Scenes/Menus/Level Select.unity
+    guid: a1b59a4a14ffe3c4faf3dd89515a6bdf
   - enabled: 1
     path: Assets/Scenes/Menus/Credits.unity
     guid: 5e64af5332cb96d4dbb0c411111cb25a

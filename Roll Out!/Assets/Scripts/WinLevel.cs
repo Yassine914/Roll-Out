@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinLevel : MonoBehaviour
 {
@@ -10,12 +11,15 @@ public class WinLevel : MonoBehaviour
     [SerializeField] private Vector3 particleOffset;
     [SerializeField] private GameObject winMenu;
 
+    private int levelToUnlock = 2;
+
     private AudioSource winSFX;
 
     private void Start()
     {
         winMenu.SetActive(false);
         winSFX = GetComponent<AudioSource>();
+        levelToUnlock = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
     private void OnTriggerEnter(Collider otherCollider)
@@ -27,13 +31,16 @@ public class WinLevel : MonoBehaviour
     }
 
     private IEnumerator LevelWin()
-    { 
+    {
+        if (PlayerPrefs.GetInt("levelReached") < levelToUnlock)
+        {
+            PlayerPrefs.SetInt("levelReached", levelToUnlock);
+        }
         winSFX.Play();
         FindObjectOfType<Player>().hasWon = true;
         InstantiateParticle();
         yield return new WaitForSeconds(winLevelDelay);
         winMenu.SetActive(true);
-        
     }
 
     private void InstantiateParticle()
