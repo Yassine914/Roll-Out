@@ -1,13 +1,11 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
 {
     [Header("Score")]
-    public int score;
+    [HideInInspector]public int score;
     [SerializeField] private TextMeshProUGUI scoreText;
     public int scoreMultiplier;
     [SerializeField] private GameObject multiplierOblect;
@@ -25,6 +23,12 @@ public class Score : MonoBehaviour
         score = (int) (Time.timeSinceLevelLoad + scoreMultiplier);
         if (scoreText is { }) scoreText.text = score.ToString();
         multiplierText.text = "+50";
+
+        if (score > PlayerPrefs.GetInt("EndlessHighScore", 0))
+        {
+            PlayerPrefs.SetInt("EndlessHighScore", score);
+            GetComponent<EndlessScore>().AddHighScore(score);
+        }
     }
 
     private void OnTriggerEnter(Collider otherCollider)

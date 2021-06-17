@@ -3,24 +3,78 @@
   <component name="ChangeListManager">
     <list default="true" id="b16a8260-ba2e-40e2-a952-ecee1e429e2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Roll Out!/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roll Out!/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D Models/Spikes Danger Sign.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D Models/Spikes Danger Sign.blend1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/BAHNSCHRIFT 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/BAHNSCHRIFT 2.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas Objects/Game Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas Objects/Game Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas Objects/Level Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas Objects/Level Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Game/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 21.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 21.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 22.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 22.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 24.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 24.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 25.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 25.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 26.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 26.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 27.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 27.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 7.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 7.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 8.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Endless/Tile 8.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game/Scene Loader.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Game/Scene Loader.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Endless/Endless Mode.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Endless/Endless Mode.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 24.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 24.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 26.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 26.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 29.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 29.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 30.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 30.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 32.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 32.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 33.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 33.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 34.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 34.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 35.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 35.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 36.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 36.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 37.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 37.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 38.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 38.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 39.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 39.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 40.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 40.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 41.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 41.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 42.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 42.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 43.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 43.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 44.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 44.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 45.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 45.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 46.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 46.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 47.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 47.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 48.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 48.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 49.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 49.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 50.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 50.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menus/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/Credits.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menus/Level Select.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/Level Select.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menus/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Score.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SettingMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SettingMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SettingsButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SettingsButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SettingsButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SettingsButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Water.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Water.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WinLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WinLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Lighting.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Lighting.lighting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker10-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker10-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker10.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker100-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker100-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker101-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker101-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker102-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker102-prev.log" afterDir="false" />
@@ -32,7 +86,7 @@
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker108-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker108-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker109-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker109-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker11-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker11-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker11.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker11.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker110-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker110-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker111-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker111-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker112-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker112-prev.log" afterDir="false" />
@@ -42,68 +96,112 @@
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker116-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker116-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker117-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker117-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker118-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker118-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker119-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker12-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker12-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker12.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker12.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker13-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker13-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker13.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker13.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker14-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker14-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker14.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker14.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker15-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker15-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker15.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker15.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker16-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker16-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker16.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker16.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker17-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker17-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker17.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker17.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker18-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker18-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker18.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker18.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker19-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker19-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker19.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker19.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker20-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker20-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker20.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker20.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker21-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker21-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker21.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker21.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker22-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker22-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker22.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker22.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker23-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker23-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker23.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker23.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker24-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker24-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker24.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker24.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker25-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker25-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker25.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker25.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker26-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker26-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker26.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker26.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker27-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker27-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker27.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker27.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker28-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker28-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker28.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker28.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker29-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker29-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker29.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker29.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker30-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker30-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker30.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker30.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker31-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker31-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker31.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker31.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker32-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker32-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker32.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker32.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker33-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker33-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker33.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker33.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker34-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker34-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker34.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker34.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker35-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker35-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker35.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker36-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker36-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker36.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker37-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker37-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker37.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker38-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker38-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker38.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker39-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker39-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker39.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker4-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker40-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker40-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker40.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker41-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker41-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker41.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker42-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker42-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker42.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker43-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker43-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker43.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker44-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker44-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker44.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker45-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker45-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker45.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker46-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker46-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker46.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker47-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker47-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker47.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker48-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker48-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker48.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker49-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker49-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker49.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker5-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker50-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker50-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker50.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker51-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker51-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker51.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker52-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker52-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker52.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker53-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker53-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker53.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker54-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker54-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker54.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker55-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker55-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker55.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker56-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker56-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker56.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker57-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker57-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker57.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker58-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker58-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker58.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker59-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker59-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker59.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker6-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker60-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker60-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker61-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker61-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker62-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker62-prev.log" afterDir="false" />
@@ -115,7 +213,7 @@
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker68-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker68-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker69-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker69-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker7-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker7-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker7.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker70-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker70-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker71-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker71-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker72-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker72-prev.log" afterDir="false" />
@@ -127,7 +225,7 @@
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker78-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker78-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker79-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker79-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker8-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker8-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker8.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker8.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker80-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker80-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker81-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker81-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker82-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker82-prev.log" afterDir="false" />
@@ -139,7 +237,7 @@
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker88-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker88-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker89-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker89-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker9-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker9-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker9.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker90-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker90-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker91-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker91-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker92-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker92-prev.log" afterDir="false" />
@@ -150,8 +248,23 @@
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker97-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker97-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker98-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker98-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker99-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker99-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -176,10 +289,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingObstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndlessScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Joystick/Scripts/Joystick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SettingsButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.24/UnityEngine.TestRunner/Utils/AssemblyProvider/PlayerTestAssemblyProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndlessManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Water.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -191,27 +305,29 @@
       <option value="$PROJECT_DIR$/Assets/Water Shader/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PageSwiper.cs" />
       <option value="$PROJECT_DIR$/Assets/LevelLoad.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DontDestroy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameCanvas.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Coins.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Coin.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CoinsText.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Water.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EndlessManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelText.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MovingObstacle.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CamFollow.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelSelector.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/WinLevel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SettingMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SettingsMenuButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CoinsText.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Coin.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/WinLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SettingsButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoad.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TutorialHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SettingMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Water.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EndlessScore.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qHouxIvqmecZuOGwfbiPvtS05M" />
@@ -301,7 +417,11 @@
       <workItem from="1620515666353" duration="1202000" />
       <workItem from="1620573104471" duration="808000" />
       <workItem from="1621410023614" duration="4741000" />
-      <workItem from="1621445931189" duration="2845000" />
+      <workItem from="1621445931189" duration="5020000" />
+      <workItem from="1621498510284" duration="3697000" />
+      <workItem from="1622120587379" duration="4086000" />
+      <workItem from="1623710210338" duration="4564000" />
+      <workItem from="1623770144456" duration="4642000" />
     </task>
     <servers />
   </component>

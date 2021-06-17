@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Water : MonoBehaviour
@@ -10,6 +11,18 @@ public class Water : MonoBehaviour
    [Range(1, 8)] public int octaves;
    public float height, speed, frequency;
    float _off = .0f;
+
+   private void Start()
+   {
+      if (PlayerPrefs.GetInt("QualityIndex") == 0)
+      {
+         this.gameObject.SetActive(false);
+      }
+      else
+      {
+         this.gameObject.SetActive(true);
+      }
+   }
 
    private void Update()
    {

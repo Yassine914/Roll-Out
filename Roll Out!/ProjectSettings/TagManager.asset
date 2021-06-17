@@ -12,6 +12,7 @@ TagManager:
   - Music
   - DieMenu
   - AdNotReady
+  - TutorialArea
   layers:
   - Default
   - TransparentFX

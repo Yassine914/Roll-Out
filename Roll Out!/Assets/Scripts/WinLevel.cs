@@ -19,7 +19,7 @@ public class WinLevel : MonoBehaviour
     {
         winMenu.SetActive(false);
         winSFX = GetComponent<AudioSource>();
-        levelToUnlock = SceneManager.GetActiveScene().buildIndex + 1;
+        levelToUnlock = SceneManager.GetActiveScene().buildIndex - 1;
     }
 
     private void OnTriggerEnter(Collider otherCollider)

@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,8 +9,13 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] private string credits = "Credits";
     public Animator transitionAnimator;
     public float transitionTime = 1f;
+    public AudioSource uiAudio;
 
-
+    private void Start()
+    {
+        uiAudio = GetComponent<AudioSource>();
+    }
+    
     private void Update()
     {
         if (Input.GetKey(KeyCode.Return) && FindObjectOfType<Player>().hasWon)
@@ -37,12 +41,14 @@ public class SceneLoader : MonoBehaviour
 
     public void LevelSelectScreen()
     {
+        uiAudio.Play();
         Time.timeScale = 1f;
         StartCoroutine(LevelSelectScreenTransition());
     }
 
     IEnumerator LevelSelectScreenTransition()
     {
+        uiAudio.Play();
         transitionAnimator.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(levelSelect);
@@ -50,6 +56,7 @@ public class SceneLoader : MonoBehaviour
     
     public void MainMenu()
     {
+        uiAudio.Play();
         Time.timeScale = 1f;
         StartCoroutine(MainMenuTransition());
     }
@@ -63,11 +70,13 @@ public class SceneLoader : MonoBehaviour
     
     public void QuitGame()
     {
+        uiAudio.Play();
         Application.Quit();
     }
 
     public void EndlessMode()
     {
+        uiAudio.Play();
         Time.timeScale = 1f;
         StartCoroutine(EndlessModeTransition());
     }
@@ -80,6 +89,14 @@ public class SceneLoader : MonoBehaviour
     }
     
     public void ReloadLevel()
+    {
+        uiAudio.Play();
+        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        Time.timeScale = 1f;
+        StartCoroutine(ReloadSceneTransition(currentSceneIndex));
+    }
+
+    public void ReloadLevelWhenFallen()
     {
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         Time.timeScale = 1f;
@@ -96,6 +113,7 @@ public class SceneLoader : MonoBehaviour
     
     public void LoadNextLevel()
     {
+        uiAudio.Play();
         Time.timeScale = 1f;
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         StartCoroutine(LoadNextLevelTransition(currentSceneIndex));
@@ -110,6 +128,7 @@ public class SceneLoader : MonoBehaviour
 
     public void CreditsScreen()
     {
+        uiAudio.Play();
         Time.timeScale = 1f;
         StartCoroutine(CreditsSceneTransition());
     }

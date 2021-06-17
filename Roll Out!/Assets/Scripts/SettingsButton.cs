@@ -1,16 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class SettingsButton : MonoBehaviour
 {
-    private Button settingsButton;
     [SerializeField] private GameObject settingsMenu;
 
     void Start()
     {
-        settingsButton = GetComponent<Button>();
         settingsMenu.SetActive(false);
+    }
+
+    public void OpenCloseSettingsMenu()
+    {
+        FindObjectOfType<SceneLoader>().uiAudio.Play();
+        if (!settingsMenu.activeSelf)
+        {
+            settingsMenu.SetActive(true);
+        }
+        else if (settingsMenu.activeSelf)
+        {
+            settingsMenu.SetActive(false);
+        }
     }
 }

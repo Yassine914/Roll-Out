@@ -6,8 +6,6 @@ using TMPro;
 public class LevelLoad : MonoBehaviour
 {
     private SceneLoader _sceneLoader;
-    
-
     private void Start()
     {
        _sceneLoader =  FindObjectOfType<SceneLoader>();
@@ -15,6 +13,7 @@ public class LevelLoad : MonoBehaviour
 
     public void LoadLevel()
     {
+        FindObjectOfType<SceneLoader>().uiAudio.Play();
         Time.timeScale = 1f;
         var levelText = GetComponentInChildren<TextMeshProUGUI>().text;
         StartCoroutine(LoadLevelTransition(levelText));
@@ -26,6 +25,4 @@ public class LevelLoad : MonoBehaviour
         yield return new WaitForSeconds(_sceneLoader.transitionTime);
         SceneManager.LoadScene("Level " + levelText);
     }
-
-    
 }

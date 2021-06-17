@@ -30,7 +30,6 @@ public class Player : MonoBehaviour, IUnityAdsListener
     private Renderer playerRenderer;
     private string gameId = "4124803";
     private string placementId = "rewardedVideo";
-    private GameObject adNotReadyText;
     
 
     private void Start()
@@ -45,7 +44,6 @@ public class Player : MonoBehaviour, IUnityAdsListener
         numOfHitAudios = Random.Range(0, hitAudios.Length);
         playerRenderer = GetComponent<Renderer>();
         Physics.IgnoreLayerCollision(8, 6, false);
-        adNotReadyText = GameObject.FindGameObjectWithTag("AdNotReady");
 
         Advertisement.Initialize(gameId, false);
         Advertisement.AddListener(this);
@@ -90,6 +88,7 @@ public class Player : MonoBehaviour, IUnityAdsListener
     {
         if (_isGrounded && !FindObjectOfType<PauseMenu>().isPaused)
         {
+            FindObjectOfType<SceneLoader>().uiAudio.Play();
             _rigidBody.velocity += Vector3.up * jumpHeight;
         }
     }
@@ -103,7 +102,7 @@ public class Player : MonoBehaviour, IUnityAdsListener
 
     private void OnTriggerEnter(Collider otherCollider)
     {
-        spikeOffset = new Vector3(Random.Range(-4, 5), 10, 20);
+        spikeOffset = new Vector3(Random.Range(-3.9f, 4.1f), 10, 20);
         if (otherCollider.CompareTag("Spikes"))
         {
             GameObject spikeClone = Instantiate(spike,
@@ -116,7 +115,7 @@ public class Player : MonoBehaviour, IUnityAdsListener
     {
         if(otherCollider.collider.CompareTag("Obstacles"))
         {
-            audioSource.PlayOneShot(hitAudios[numOfHitAudios], .7f);
+            audioSource.PlayOneShot(hitAudios[numOfHitAudios], .9f);
             Die();
         }
     }
@@ -130,7 +129,7 @@ public class Player : MonoBehaviour, IUnityAdsListener
     {
         if (transform.position.y < -fallLimit && !hasWon)
         {
-            FindObjectOfType<SceneLoader>().ReloadLevel();
+            FindObjectOfType<SceneLoader>().ReloadLevelWhenFallen();
         }
     }
 
@@ -157,11 +156,12 @@ public class Player : MonoBehaviour, IUnityAdsListener
     {
         if(Advertisement.IsReady(placementId))
         {
+            FindObjectOfType<SceneLoader>().uiAudio.Play();
             Advertisement.Show(placementId);
         }
         else
         {
-            Debug.Log("Ad is Not Ready!");
+            StartCoroutine(AdNotReady());
         }
     }
 
@@ -187,11 +187,6 @@ public class Player : MonoBehaviour, IUnityAdsListener
             Debug.Log("Reward Player Now!");
             StartCoroutine(ContinueAfterAd());
         }
-
-        if(showResult == ShowResult.Failed)
-        {
-            StartCoroutine(AdNotReady());
-        }
     }
 
     private IEnumerator ContinueAfterAd()
@@ -211,9 +206,9 @@ public class Player : MonoBehaviour, IUnityAdsListener
 
     private IEnumerator AdNotReady()
     {
-        adNotReadyText.SetActive(true);
+        GameObject.FindGameObjectWithTag("AdNotReady").SetActive(true);
         yield return new WaitForSeconds(2);
-        adNotReadyText.SetActive(false);
+        GameObject.FindGameObjectWithTag("AdNotReady").SetActive(false);
     }
     
     private void OnDestroy()

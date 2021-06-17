@@ -24,8 +24,6 @@ public class PauseMenu : MonoBehaviour
   
     private void PauseGame()
     {
-        
-        
         if (Input.GetKeyDown(KeyCode.Escape) && !isPaused && !player.hasWon && player.isAlive)
         {
             pauseMenu.SetActive(true);
@@ -58,6 +56,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (!isPaused && !player.hasWon && player.isAlive)
         {
+            FindObjectOfType<SceneLoader>().uiAudio.Play();
             pauseMenu.SetActive(true);
             Time.timeScale = 0f;
             isPaused = true;
@@ -68,6 +67,7 @@ public class PauseMenu : MonoBehaviour
         var player = FindObjectOfType<Player>();
         if (isPaused && !player.hasWon && player.isAlive)
         {
+            FindObjectOfType<SceneLoader>().uiAudio.Play();
             pauseMenu.SetActive(false);
             Time.timeScale = 1f;
             isPaused = false;
